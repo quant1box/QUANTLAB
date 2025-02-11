@@ -1,0 +1,40 @@
+{
+    "position_file": "positions.json",
+    "update_interval": 60,
+    "risk_limits": {
+        "max_delta": 100,
+        "max_gamma": 50,
+        "max_loss": -100000,
+        "position_limits": {
+            "parity": 10,
+            "box": 5,
+            "seller": 20
+        }
+    },
+    "strategy_params": {
+        "parity": {
+            "min_spread": 0.01,
+            "max_positions": 10
+        },
+        "box": {
+            "min_spread": 0.02,
+            "max_positions": 5
+        },
+        "seller": {
+            "max_delta": 0.3,
+            "min_time_value": 0.1,
+            "min_dte": 7,
+            "max_dte": 45
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "option_trading.log",
+        "format": "%(asctime)s - %(levelname)s - %(message)s"
+    },
+    "data": {
+        "source": "akshare",
+        "update_interval": 60,
+        "cache_expire": 300
+    }
+} 
