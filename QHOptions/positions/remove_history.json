@@ -1,0 +1,47 @@
+[
+    {
+        "code": "10007190",
+        "name": "500ETF沽12月5659A",
+        "remove_time": "2024-11-27 09:31:14",
+        "reason": "止损",
+        "entry_price": 0.1345,
+        "exit_price": null,
+        "holding_days": 1
+    },
+    {
+        "code": "10007328",
+        "name": "500ETF沽12月5500",
+        "remove_time": "2024-11-27 09:49:30",
+        "reason": "止损",
+        "entry_price": 0.1027,
+        "exit_price": null,
+        "holding_days": 0
+    },
+    {
+        "code": "10007328",
+        "name": "500ETF沽12月5500",
+        "remove_time": "2024-11-27 10:49:25",
+        "reason": "止盈",
+        "entry_price": 0.1095,
+        "exit_price": null,
+        "holding_days": 0
+    },
+    {
+        "code": "10007190",
+        "name": "500ETF沽12月5659A",
+        "remove_time": "2024-11-29 11:18:42",
+        "reason": "止盈",
+        "entry_price": 0.1011,
+        "exit_price": null,
+        "holding_days": 1
+    },
+    {
+        "code": "10008029",
+        "name": "500ETF沽3月6149A",
+        "remove_time": "2025-02-27 11:16:24",
+        "reason": "止损",
+        "entry_price": 0.2578,
+        "exit_price": null,
+        "holding_days": 0
+    }
+]
